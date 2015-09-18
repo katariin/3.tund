@@ -20,6 +20,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 
 ?>
+<?php
+   $page_title = "Login leht";
+   $file_name = "login.php";
+   ?>
+
 <html>
 <head>
 <title>Login page</title>
