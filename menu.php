@@ -1,4 +1,4 @@
-<h3>menüü</h3>
+<h3>MENU</h3>
 <?php //echo $file_name; ?>
 <ul>
 
@@ -6,7 +6,7 @@
    
     <li>Avaleht</li>
 	
-   <?php } else ] { ?>
+   <?php } else { ?>
    
 	
 	<li>
@@ -21,6 +21,6 @@
 	    echo "<li>Logi sisse</li>";
 		
    }else{
-         echo '<li><a href ="login.php">Logi sisse</li>'   
+         echo '<li><a href ="login.php">Logi sisse</li>' ;
    }
    ?>
